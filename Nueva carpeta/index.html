@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#24143d" />
+    <title>Fer x Ailyn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="opening section-shell" aria-labelledby="page-title">
+        <div class="floating-hearts" aria-hidden="true"><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span></div>
+        <div class="topbar"><span>PARA CHUN</span><span>MI TIKI</span></div>
+        <img class="opening-photo" src="assets/Gemini_Generated_Image_txb1rotxb1rotxb1.jpg" alt="Two characters hugging beneath a heart" />
+        <div class="opening-content">
+          <p class="eyebrow"></p>
+          <h1 id="page-title">Fer <span>x</span><br />Ailyn</h1>
+          <p class="opening-note"></p>
+        </div>
+        <div class="opening-stamp" aria-hidden="true">
+          <span aria-hidden="true">♥</span>
+          <div class="heart-burst" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="photos section-shell" id="photos" aria-label="Memories gallery">
+        <div class="polaroid-stage">
+          <div class="polaroid-carousel" id="memory-carousel" aria-live="polite">
+            <article class="polaroid-card is-active" data-index="0">
+              <div class="polaroid-frame">
+                <img src="assets/IMG-20260801-WA0277.jpg" alt="Our favorite day" />
+              </div>
+            </article>
+            <article class="polaroid-card" data-index="1">
+              <div class="polaroid-frame">
+                <img src="assets/IMG-20260826-WA0046.jpg" alt="Smile together" />
+              </div>
+            </article>
+            <article class="polaroid-card" data-index="2">
+              <div class="polaroid-frame">
+                <img src="assets/IMG-20260802-WA0043.jpg" alt="Photo 3" />
+              </div>
+            </article>
+            <article class="polaroid-card" data-index="3">
+              <div class="polaroid-frame">
+                <img src="assets/IMG-20260918-WA0008.jpg" alt="Photo 4" />
+              </div>
+            </article>
+            <article class="polaroid-card" data-index="4">
+              <div class="polaroid-frame">
+                <img src="assets/IMG-20260919-WA0056.jpg" alt="Photo 5" />
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="carousel-dots" aria-hidden="true"><span class="active"></span><span></span><span></span><span></span><span></span></div>
+      </section>
+    
+
+      <section class="video section-shell" id="video" aria-labelledby="video-title">
+        <div class="video-copy">
+          <h2 id="video-title">Our Movie is far<br /><em>to be over...</em></h2>
+        </div>
+        <div class="video-frame">
+          <img class="cinema-backdrop" src="assets/b6a69e7b6c6d7ac322c4250d16766209.jpg" alt="Sala de cine con una pantalla" />
+          <div class="cinema-screen">
+            <video id="video-player" controls playsinline></video>
+            <div id="video-placeholder"><span class="play-mark" aria-hidden="true">▶</span><span>your video will live here</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+echo "# FerxAiln" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Fercas1908/FerxAiln.git
+git push -u origin main
